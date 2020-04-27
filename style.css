@@ -1,0 +1,49 @@
+body {
+    text-align: center;
+}
+
+#game_board {
+    width: 310px;
+    height: 310px;
+    margin: auto;
+    margin-top: 50px;
+    border: 1px black solid;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.row {
+    height: 100px;
+}
+.col {
+    height: 100px;
+    width: 100px;
+    float: left;
+    font-size: 100px;
+    text-align: center;
+    line-height: 100px;
+    background-color: aqua;
+}
+
+.col:hover {
+    background-color: aquamarine;
+}
+
+.border_bottom {
+    border-bottom: 5px solid black;
+}
+
+.border_right {
+    border-right: 5px solid black;
+}
+
+#new_game {
+    margin: 0 auto;
+}
+
+#show {
+    display: inline;
+}
